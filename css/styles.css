@@ -89,7 +89,7 @@ img {
 }
 @media (min-width: 768px) { 
     .nombre-sitio {
-        font-size: 5rem;
+        font-size: 1.5rem;
     }
 }
 
@@ -200,7 +200,7 @@ img {
 
 .contenido-nosotros {
     background-color: var(--blanco);
-    padding: 5rem;
+    padding: 4rem;
 }
 @media (min-width: 992px) { 
     .contenido-nosotros {
@@ -346,3 +346,27 @@ img {
     font-size: 2rem;
     padding: 1rem;
 }
+
+@media (max-width: 280px) {
+    /* Aquí puedes agregar estilos específicos para el Galaxy Fold */
+    /* Por ejemplo, ajustar el tamaño de fuente o el espaciado para que sea legible en una pantalla más pequeña */
+    body {
+      font-size: 1.4rem;
+      line-height: 1.5;
+    }
+    h1 {
+      font-size: 3.6rem;
+    }
+    h2 {
+      font-size: 4.2rem;
+    }
+    h3 {
+      font-size: 3.8rem;
+    }
+    .btn {
+      padding: .3rem 1.5rem;
+    }
+    .nombre-sitio {
+      font-size: 2rem;
+    }
+  }
