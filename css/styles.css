@@ -87,7 +87,7 @@ img {
     text-align: center;
     font-size: 3rem;
 }
-@media (min-width: 768px) { 
+@media (max-width: 768px) { 
     .nombre-sitio {
         font-size: 1.5rem;
     }
